@@ -1,0 +1,3 @@
+[submodule "submodules/pymumble"]
+	path = submodules/pymumble
+	url = https://github.com/azlux/pymumble
