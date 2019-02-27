@@ -10,4 +10,5 @@ userList = afkbot.users
 
 print(userList)
 for session in userList:
-    print(userList[session])
+    print(userList[session].get_property('name'))
+    userList[session].send_message('HEY! This is a test message')
