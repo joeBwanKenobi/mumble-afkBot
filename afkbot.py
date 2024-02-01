@@ -1,7 +1,7 @@
 import pymumble_py3 as pymumble
 from time import sleep
 
-afkbot = pymumble.Mumble("multiverse.jo3.io", "afkBot", password='beersh!tz')
+afkbot = pymumble.Mumble("multiverse.jo3.io", "afkBot", password='')
 afkbot.set_application_string('afkbot')
 afkbot.start()
 afkbot.is_ready()
